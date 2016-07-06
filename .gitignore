@@ -4,3 +4,5 @@ oenv
 db.sqlite3
 /static
 .DS_Store
+djangoenv
+djangoenvpip
