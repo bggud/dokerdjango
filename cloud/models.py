@@ -7,7 +7,6 @@ class Docker(models.Model):
 	count_of_containers = models.IntegerField() 
 	choose_language = models.CharField(max_length=30)
 	code = models.TextField()
-#	container_id = models.ForeignKey('id.Container')
-
+	
 def __str__(self):
 	return self.name

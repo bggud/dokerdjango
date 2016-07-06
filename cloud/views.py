@@ -1,5 +1,6 @@
 from django.shortcuts import render
-
+from .models import Docker
 # Create your views here.
 def cloud_view(request):
-	return render(request,'cloud/cloudIndex.html',{})
+	dkr = Docker.objects.filter()
+	return render(request,'cloud/cloudIndex.html',{'dkr':dkr})
